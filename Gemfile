@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Gema devise para la autentificacion de los usuarios
+gem 'devise'
 
 # navbar de la aplicacion, tomada de Boostrap
 gem 'bootstrap-sass', '~> 3.3.6'
