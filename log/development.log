@@ -3993,3 +3993,324 @@ Processing by PagesController#home as HTML
   Rendered layouts/_nav_user.html.erb (0.3ms)
   Rendered layouts/_nav.html.erb (2.6ms)
 Completed 200 OK in 93ms (Views: 91.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 03:58:37 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 1652ms (Views: 1651.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-dbeddefa2f91baa6ce6503e2ef25db8577607e2340e19a8fd078ef8e99a3c0c7.css?body=1" for 181.49.94.57 at 2017-02-08 03:58:40 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:01:40 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.7ms)
+Completed 200 OK in 2591ms (Views: 2588.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-0519892f86954f2033b42b53378c9d1a2907c7cfd0b9a5926168b76449c21c64.css?body=1" for 181.49.94.57 at 2017-02-08 04:01:43 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:03:40 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.7ms)
+  Rendered layouts/_nav.html.erb (6.1ms)
+Completed 200 OK in 2591ms (Views: 2589.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-9140e5c4b08870a0c88d0e106967a0d0398d8e8302b7cfdafe8925c20a96300e.css?body=1" for 181.49.94.57 at 2017-02-08 04:03:43 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:04:25 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:04:32 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.5ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:09:02 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.3ms)
+  Rendered layouts/_nav.html.erb (3.9ms)
+Completed 200 OK in 73ms (Views: 70.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:19:08 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (3.8ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:21:19 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 2132ms (Views: 2129.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-6f4e2b32644f0357278d04834a68c73ba547378e79394789349a4ae11a48be40.css?body=1" for 181.49.94.57 at 2017-02-08 04:21:21 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:21:34 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.2ms)
+Completed 200 OK in 71ms (Views: 68.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:21:39 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:22:12 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.8ms)
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:22:30 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.8ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:22:53 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:23:18 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 2004ms (Views: 2002.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-2c2630f2811b5d7a4be5a20f6f3dfeaa84e21eb067746b3d83d4f6ecc2dbf897.css?body=1" for 181.49.94.57 at 2017-02-08 04:23:20 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:23:34 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (3.8ms)
+Completed 200 OK in 2351ms (Views: 2348.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-36d9120acafed8a9cc255a04badefe48e1b9344bcc30433a16afac31a69da67f.css?body=1" for 181.49.94.57 at 2017-02-08 04:23:37 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:23:59 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.5ms)
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:26:29 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:31:52 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:32:09 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.0ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/explore" for 181.49.94.57 at 2017-02-08 04:33:05 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#explore as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/explore.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 181.49.94.57 at 2017-02-08 04:34:18 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for 181.49.94.57 at 2017-02-08 04:34:18 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 181.49.94.57 at 2017-02-08 04:34:20 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 181.49.94.57 at 2017-02-08 04:35:51 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/home" for 181.49.94.57 at 2017-02-08 04:35:52 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 181.49.94.57 at 2017-02-08 04:35:54 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.5ms)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 181.49.94.57 at 2017-02-08 04:35:55 +0000
+Cannot render console from 181.49.94.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.4ms)
