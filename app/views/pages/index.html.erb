@@ -1,2 +1,83 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<% if !user_signed_in? %>
+<style>
+    body {
+    background: linear-gradient( /* transparencia y contraste con el bg */
+    rgba(0,0,0, 0.7),
+    rgba(0,0,0, 0.7)
+    ), url("/bg.jpg") no-repeat center center fixed;
+   
+    ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -a-background-size: cover;
+    background-size: cover;
+    
+}
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.container-index {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.text {
+    color: white;
+    font-weight: 300;
+    font-size: 150%;
+}
+
+.footer-links {
+    text-align: center;
+    color: white;
+    margin-top: 30%;
+    font-size: 75%;
+}
+
+.log-in {
+    float: right;
+    width: 300px;
+    height: 150px;
+    margin-top: 7.5%;
+
+}
+.sign-up {
+    float: right;
+    width: 300px;
+    height: 250px;
+}
+
+</style>
+
+<div class="container-index row">
+    <div class="col-sm-6">
+    <h1>Bienvenidos a TextCUC.</h1>
+    <p class="text">
+        Una red social donde compartir experiencias <br>
+        con tus compañeros de universidad!</br>
+    </p>
+    </div>
+    <div class="col-sm-6">
+    <div class="log-in panel">
+        Ingresar
+    </div>
+    
+    <div class="sign-up panel">
+        Registrarme
+    </div>
+    
+    </div>
+
+    <div class="col-sm-12">
+    <p class="footer-links">Un proyecto realizado con fines educativos | Creado por Brayan Regino | Basado en Twitter.com | 2017</p>
+</div>
+</div>
+
+
+
+<% else %>
+
+ingresado
+<% end %>
