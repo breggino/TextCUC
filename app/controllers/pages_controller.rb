@@ -8,6 +8,7 @@ class PagesController < ApplicationController
  # Codigo para pages/home
   def home
     @posts = Post.all
+    @newPost = Post.new
   end
 
  # Codigo para pages/profile
